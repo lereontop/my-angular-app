@@ -6,7 +6,8 @@ import { RouterModule } from '@angular/router';
   selector: 'app-job-listing',
   imports: [RouterModule],
   templateUrl: './job-listing.component.html',
-  styleUrl: './job-listing.component.css'
+  styleUrl: './job-listing.component.css',
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class JobListingComponent {
   @Input() job: Job = {} as Job;

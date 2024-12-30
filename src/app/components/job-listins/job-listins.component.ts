@@ -4,9 +4,10 @@ import { Job } from '../../../Job';
 import { CommonModule } from '@angular/common';
 import { JobListingComponent } from '../job-listing/job-listing.component';
 import { RouterModule } from '@angular/router';
+import { HttpClient } from '@angular/common/http';
 @Component({
   selector: 'app-job-listins',
-  imports: [CommonModule,JobListingComponent, RouterModule],
+  imports: [CommonModule,JobListingComponent, RouterModule,],
   templateUrl: './job-listins.component.html',
   styleUrl: './job-listins.component.css'
 })
@@ -24,3 +25,6 @@ export class JobListinsComponent {
   }
 
 }
+
+
+

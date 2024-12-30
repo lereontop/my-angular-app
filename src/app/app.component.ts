@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { CommonModule } from '@angular/common';
+import {HttpClientModule} from '@angular/common/http'
+
 
 @Component({
   selector: 'app-root',
@@ -9,7 +11,9 @@ import { CommonModule } from '@angular/common';
     RouterOutlet,
     CommonModule,
     NavbarComponent,
+    HttpClientModule,
     ],
+
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

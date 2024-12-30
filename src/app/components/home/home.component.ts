@@ -6,7 +6,11 @@ import { JobListinsComponent } from '../job-listins/job-listins.component';
 
 @Component({
   selector: 'app-home',
-  imports: [HeroComponent, HomeCardComponent,JobListinsComponent, CommonModule],
+  imports:[
+    HeroComponent,
+    HomeCardComponent,
+    JobListinsComponent,
+    CommonModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })

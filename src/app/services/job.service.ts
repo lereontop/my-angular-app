@@ -7,8 +7,7 @@ import { Job } from '../../Job';
   providedIn: 'root'
 })
 export class JobService {
-  private apiUrl = 'http://localhost:4200/';
-
+  private apiUrl = 'http://localhost:5000/jobs';
 
   constructor(private http:HttpClient) { }
 
